@@ -102,8 +102,8 @@ const getChaseVerdict = (target,scored, ballsLeft)=>{
   else{
         verdict="Almost Impossible";
     }
-  return `Need ${runsNeeded} Run in ${ballsLeft} balls | ${verdict}`;
+  return `Need ${runsNeeded} Runs in ${ballsLeft} balls | ${verdict}`;
 };
  console.log(getChaseVerdict(100,60,12));
  //Output
- //Need 40 Run in 12 balls | Almost Impossible
+ //Need 40 Runs in 12 balls | Almost Impossible
